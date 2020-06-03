@@ -82,6 +82,28 @@ placement */
     transform: rotateY(180deg);
 }
 
+.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    width: 759px;
+    height: 34px;
+    position: absolute;
+    left: 104px;
+}
+.custom .trigger{/* These are the actual triggers themselves */
+    width: 211px;
+    height: 34px;
+    background: url(drawing/drawing.svg); 
+    background-position: -967px 0px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.custom .trigger.left{ 
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transf
+
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
