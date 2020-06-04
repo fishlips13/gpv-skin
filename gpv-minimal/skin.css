@@ -1,0 +1,190 @@
+/*
+-How to use Custom CSS for the Gamepad Viewer-
+http://mrmcpowned.com/gamepad
+
+Enabling a custom CSS is as easy as adding &css=[url to css file]
+to the end of the url like so:
+http://mrmcpowned.com/gamepad?p=1&css=https://gist.github.com/anonymous/526491dc02014099cd14/raw/d7bb0477ba984f794497f3f0f82cb33484dc7889/ps3.css
+
+If you're going to be using custom CSS for the gamepad viewer
+to design your own skin, we're assuming you have some sort of
+basic knowledge on how CSS works. I'd also suggest uploading
+your custom CSS to GitHub's gist as you can easily get the
+direct link for the file by copying the link address on the
+"Raw" button at the top right of the code.
+NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
+It doesn't matter what you call it, so long as it ends in .css
+else the site won't read it and think it's just a plain text.
+
+Each CSS entry must be preceded by '.custom' since that's the 
+hardcoded class for a custom style. It doesn't make sense to 
+change this as you can only have one custom skin loaded at a time.
+
+If you're using images, they have to be uploaded to an image host of
+your choice. Personally, I'd go with Imgur since it's simple to upload
+and get the direct URL of the image. None of the images in this example
+will load because they're pointing to a location relative of the css 
+files, since this is normally in the main CSS file of the site.
+
+The following is a copy of the code used for displaying the PS3 controller
+skin on the Gamepad viewer. You can scroll below and read the comments to
+get an understanding of how the styling works and whatnot. Happy skinning!
+
+P.S. If you use this tool often and would like to 'buy me a coffee' you can
+do so via my Imraising page: https://imraising.tv/u/mrmcpowned
+
+*/
+
+/*BEGIN PS3 Controller Styling*/
+/*This class defines the base attributes of the skin*/
+.controller.custom{
+    background: url(snes-minimal.png); 
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 114px;
+    height: 48px;
+}
+.custom.disconnected {
+    background: url(snes-minimal.png); 
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 114px;
+    height: 48px;
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    width: 107px;
+    height: 5px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+}
+.custom .trigger{/* These are the actual triggers themselves */
+    width: 33px;
+    height: 5px;
+    background: url(snes-minimal.png); 
+    background-position: -117px 0px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.custom .trigger.left{ 
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/* This is to size and position the containing div for the 
+start and select buttons. */
+.custom .arrows{
+    position: absolute;
+    width: 30px;
+    height: 13px;
+    top: 33px;
+    left: 42px;
+}
+/* Setting the size and CSS sprite for the start adn select buttons */
+.custom .back, .custom .start{
+    width: 13px;
+    height: 13px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background: url(snes-minimal.png);
+    background-position: -118px -33px;
+}
+.custom .back{
+    float: left;
+}
+.custom .start{
+    float: right;
+}
+/* Positioning and size of the container for the face buttons */
+.custom .abxy{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 7px;
+    left: 74px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:15px;
+    height:15px;
+}
+.custom .button.pressed{
+    background: url(snes-minimal.png);
+    background-position-x: -135px;
+}
+.custom .a{
+    top: 26px;
+    left: 13px;
+}
+.custom .b{
+    top: 13px;
+    left: 26px;
+}
+.custom .x{
+    top: 13px;
+    left: 0px;
+}
+.custom .y{
+    top: 0px;
+    left: 13px;
+}
+
+/* Dpad possitioning and sizing */
+.custom .dpad{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 7px;
+    left: 0px;
+}
+.custom .face{
+    position: absolute;
+    width:13px;
+    height:19px;
+}
+.custom .face.up{
+    left: 14px;
+    top: 0px;
+}
+.custom .face.down{
+    left: 14px;
+    top: 22px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.custom .face.left{
+    top: 14px;
+    left: 0px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.custom .face.right{
+    top: 14px;
+    left: 22px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.custom .face.pressed{
+    background: url(snes-minimal.png);
+    background-position: -117px -10px;
+}
+/* NOTE: You NEED to set this to exactly half the height of what is listed 
+for '.controller.custom' so when your skin is activated via player selection
+parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
+centered on screen. */
+.custom.half{
+    margin-top: -24px;
+}
+
+
+/*END PS3 Controller Styling*/
