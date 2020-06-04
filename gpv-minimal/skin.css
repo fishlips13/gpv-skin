@@ -41,8 +41,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(snes-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    width: 114px;
-    height: 48px;
+    width: 116px;
+    height: 50px;
 }
 .custom.disconnected {
     background: url(snes-minimal.png); 
@@ -107,8 +107,8 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 42px;
-    height: 42px;
+    width: 41px;
+    height: 41px;
     top: 7px;
     left: 74px;
 }
@@ -142,8 +142,8 @@ start and select buttons. */
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 42px;
-    height: 42px;
+    width: 41px;
+    height: 41px;
     top: 7px;
     left: 0px;
 }
@@ -183,7 +183,7 @@ for '.controller.custom' so when your skin is activated via player selection
 parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
 centered on screen. */
 .custom.half{
-    margin-top: -24px;
+    margin-top: -25px;
 }
 
 
