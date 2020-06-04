@@ -67,7 +67,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 33px;
     height: 5px;
     background: url(snes-minimal.png); 
-    background-position: -127px 0px;
+    background-position: -117px 0px;
     background-repeat: no-repeat;
     opacity: 0;
 }
@@ -120,7 +120,7 @@ start and select buttons. */
 }
 .custom .button.pressed{
     background: url(snes-minimal.png);
-    background-position-x: -135px;
+    background-position-x: -135px -11px;
 }
 .custom .a{
     top: 26px;
