@@ -72,14 +72,12 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     opacity: 0;
 }
 .custom .trigger.left{ 
-    float: left;
+    left: 0px;
     top: 1px;
 }
 .custom .trigger.right{
-    float: right;
+    right: 0px;
     top: 1px;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 
 /* This is to size and position the containing div for the 
