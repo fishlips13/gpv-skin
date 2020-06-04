@@ -41,8 +41,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(snes-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    width: 114px;
-    height: 48px;
+    width: 115px;
+    height: 49px;
 }
 .custom.disconnected {
     background: url(snes-minimal.png); 
@@ -67,7 +67,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 33px;
     height: 5px;
     background: url(snes-minimal.png); 
-    background-position: -117px -1px;
+    background-position: -117px 1px;
     background-repeat: no-repeat;
     opacity: 0;
 }
@@ -120,7 +120,7 @@ start and select buttons. */
 }
 .custom .button.pressed{
     background: url(snes-minimal.png);
-    background-position-x: -135px -11px;
+    background-position: -135px -11px;
 }
 .custom .a{
     top: 26px;
