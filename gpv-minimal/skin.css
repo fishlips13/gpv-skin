@@ -60,7 +60,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 107px;
     height: 5px;
     position: absolute;
-    top: 0px;
+    top: 1px;
     left: 4px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
@@ -154,11 +154,11 @@ start and select buttons. */
 }
 .custom .face.up{
     left: 14px;
-    top: 0px;
+    top: 1px;
 }
 .custom .face.down{
     left: 14px;
-    top: 22px;
+    top: 23px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
