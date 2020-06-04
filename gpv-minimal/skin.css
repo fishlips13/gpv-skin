@@ -58,18 +58,16 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 107px;
-    height: 5px;
+    height: 6px;
     position: absolute;
     top: 0px;
     left: 4px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width: 33px;
-    height: 5px;
+    height: 6px;
     background: url(snes-minimal.png); 
     background-position: -117px 0px;
-    background-repeat: no-repeat;
-    opacity: 0;
 }
 .custom .trigger.left{ 
     float: left;
