@@ -58,7 +58,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 107px;
-    height: 5px;
+    height: 6px;
     position: absolute;
     top: 0px;
     left: 4px;
@@ -73,11 +73,9 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 }
 .custom .trigger.left{ 
     float: left;
-    top: 10px;
 }
 .custom .trigger.right{
     float: right;
-    top: 10px;
 }
 
 /* This is to size and position the containing div for the 
