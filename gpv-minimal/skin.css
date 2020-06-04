@@ -73,13 +73,11 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 }
 .custom .trigger.left{ 
     float: left;
-    top: 1px;
+    top: 10px;
 }
 .custom .trigger.right{
     float: right;
-    top: 1px;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    top: 10px;
 }
 
 /* This is to size and position the containing div for the 
@@ -125,19 +123,19 @@ start and select buttons. */
     background-position: -135px -11px;
 }
 .custom .a{
-    top: 26px;
+    top: 27px;
     left: 13px;
 }
 .custom .b{
-    top: 13px;
+    top: 14px;
     left: 26px;
 }
 .custom .x{
-    top: 13px;
+    top: 14px;
     left: 0px;
 }
 .custom .y{
-    top: 0px;
+    top: 1px;
     left: 13px;
 }
 
