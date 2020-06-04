@@ -147,29 +147,34 @@ start and select buttons. */
     top: 7px;
     left: 0px;
 }
-.custom .face{
+.custom .face.up, .face.down{
     position: absolute;
     width:13px;
     height:19px;
 }
+.custom .face.left, .face.right{
+    position: absolute;
+    width:19px;
+    height:13px;
+}
 .custom .face.up{
     left: 14px;
-    top: 1px;
+    top: 0px;
 }
 .custom .face.down{
     left: 14px;
-    top: 23px;
+    top: 22px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 14px;
+    top: 13px;
     left: 0px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 .custom .face.right{
-    top: 14px;
+    top: 13px;
     left: 22px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
