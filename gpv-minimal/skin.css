@@ -66,6 +66,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .custom .trigger{/* These are the actual triggers themselves */
     width: 33px;
     height: 5px;
+    top: 1px;
     background: url(snes-minimal.png); 
     background-position: -117px 0px;
     background-repeat: no-repeat;
@@ -147,15 +148,10 @@ start and select buttons. */
     top: 7px;
     left: 0px;
 }
-.custom .face.up, .face.down{
+.custom .face{
     position: absolute;
     width:13px;
     height:19px;
-}
-.custom .face.left, .face.right{
-    position: absolute;
-    width:19px;
-    height:13px;
 }
 .custom .face.up{
     left: 14px;
@@ -168,13 +164,13 @@ start and select buttons. */
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 13px;
+    top: 14px;
     left: 0px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 .custom .face.right{
-    top: 13px;
+    top: 14px;
     left: 22px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
