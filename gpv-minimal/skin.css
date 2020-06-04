@@ -152,28 +152,7 @@ start and select buttons. */
     width:13px;
     height:19px;
 }
-.custom .face.up{
-    left: 14px;
-    top: 0px;
-}
-.custom .face.down{
-    left: 14px;
-    top: 22px;
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-}
-.custom .face.left{
-    top: 14px;
-    left: 0px;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-.custom .face.right{
-    top: 14px;
-    left: 22px;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
+
 .custom .face.pressed{
     background: url(snes-minimal.png);
     background-position: -117px -10px;
