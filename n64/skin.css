@@ -173,9 +173,8 @@ start and select buttons. */
 .custom .stick{
     position: absolute;
     background: url(n64-minimal.png);
-    display: block;
-    height:25px;
-    width: 25px;
+    height:10px;
+    width: 10px;
     background-position: -61px -40px;
 }
 .custom .stick.left{
