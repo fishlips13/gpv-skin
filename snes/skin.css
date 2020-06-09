@@ -38,90 +38,61 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(drawing/drawing.svg); 
+    background: url(snes-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    width: 970px;
-    height: 424px;
-    margin-left: -485px;
-    margin-top: -212px;
+    width: 116px;
+    height: 50px;
 }
 .custom.disconnected {
-    background: url(drawing/drawing.svg); 
-    background-position: 0px -424px;
+    background: url(snes-minimal.png); 
     background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 114px;
+    height: 48px;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
     display: none;
 }
 
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
-.custom .bumper{
-    width: 211px;
-    height: 34px;
-    background: url(drawing/drawing.svg); 
-    background-position: -967px 0px;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.custom .bumpers{
-    position: absolute;
-    left: 104px;
-    top: 0px;
-    width: 759px;
-    height: 34px;
-}
-.custom .bumper.left{
-    float: left;
-}
-.custom .bumper.right{
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 759px;
-    height: 34px;
+    width: 107px;
+    height: 6px;
     position: absolute;
-    left: 104px;
+    top: 0px;
+    left: 4px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width: 211px;
-    height: 34px;
-    background: url(drawing/drawing.svg); 
-    background-position: -967px 0px;
-    background-repeat: no-repeat;
-    opacity: 0;
+    width: 33px;
+    height: 6px;
+    background: url(snes-minimal.png); 
+    background-position: -117px 0px;
 }
 .custom .trigger.left{ 
     float: left;
 }
 .custom .trigger.right{
     float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 176px;
-    height: 62px;
-    top: 214px;
-    left: 358px;
+    width: 30px;
+    height: 13px;
+    top: 33px;
+    left: 42px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    width: 71.5px;
-    height: 61.5px;
+    width: 13px;
+    height: 13px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background: url(drawing/drawing.svg);
-    background-position: -1177.5px 0px;
+    background: url(snes-minimal.png);
+    background-position: -118px -33px;
 }
 .custom .back{
     float: left;
@@ -132,91 +103,83 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 259px;
-    height: 218px;
-    top: 105px;
-    left: 633px;
+    width: 41px;
+    height: 41px;
+    top: 7px;
+    left: 74px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:75px;
-    height:75px;
+    width:15px;
+    height:15px;
 }
 .custom .button.pressed{
-    background: url(drawing/drawing.svg);
-    background-position-x: -1249px;
+    background: url(snes-minimal.png);
+    background-position: -135px -11px;
 }
 .custom .a{
-    top: 143px;
-    left: 92px;
+    top: 27px;
+    left: 13px;
 }
 .custom .b{
-    top: 71px;
-    right: 0px;
+    top: 14px;
+    left: 26px;
 }
 .custom .x{
-    top: 71px;
+    top: 14px;
+    left: 0px;
 }
 .custom .y{
-    left: 92px;
+    top: 1px;
+    left: 13px;
 }
 
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 146px;
-    height: 146px;
-    top: 142px;
-    left: 133px;
+    width: 41px;
+    height: 41px;
+    top: 7px;
+    left: 0px;
 }
 .custom .face{
     position: absolute;
-}
-.custom .face.up, .custom .face.down{
-    width: 33.5px;
-    height: 34px;
-}
-.custom .face.left, .custom .face.right{
-    width: 34px;
-    height: 33.5px;
+    width:13px;
+    height:19px;
 }
 .custom .face.up{
-    left: 56px;
-    top: 0;
-    background-position: 92px 0px;
+    left: 14px;
+    top: 1px;
 }
 .custom .face.down{
-    left: 56px;
-    top: 112px;
-    background-position: 131px 0;
+    left: 14px;
+    top: 23px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 56px;
-    left: 0;
-    background-position: 0px 0;
+    top: 12px;
+    left: 3px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 .custom .face.right{
-    top: 56px;
-    right: 0px;
-    background-position: 53px 0;
+    top: 12px;
+    left: 25px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 .custom .face.pressed{
-    background: url(drawing/drawing.svg);
-    background-position-x: -1323px;
+    background: url(snes-minimal.png);
+    background-position: -117px -10px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
 for '.controller.custom' so when your skin is activated via player selection
 parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
 centered on screen. */
 .custom.half{
-    margin-top: -279px;
+    margin-top: -25px;
 }
 
 
