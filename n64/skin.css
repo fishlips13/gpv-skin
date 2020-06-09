@@ -38,7 +38,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(drawing/drawing.svg); 
+    background: url(n64\n64-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 970px;
@@ -47,7 +47,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(drawing/drawing.svg); 
+    background: url(n64\n64-minimal.png); 
     background-position: 0px -424px;
     background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ placement */
 .custom .bumper{
     width: 211px;
     height: 34px;
-    background: url(drawing/drawing.svg); 
+    background: url(n64\n64-minimal.png); 
     background-position: -967px 0px;
     background-repeat: no-repeat;
     opacity: 0;
@@ -91,7 +91,7 @@ placement */
 .custom .trigger{/* These are the actual triggers themselves */
     width: 211px;
     height: 34px;
-    background: url(drawing/drawing.svg); 
+    background: url(n64\n64-minimal.png); 
     background-position: -967px 0px;
     background-repeat: no-repeat;
     opacity: 0;
@@ -120,7 +120,7 @@ start and select buttons. */
     height: 61.5px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background: url(drawing/drawing.svg);
+    background: url(n64\n64-minimal.png);
     background-position: -1177.5px 0px;
 }
 .custom .back{
@@ -144,7 +144,7 @@ start and select buttons. */
     height:75px;
 }
 .custom .button.pressed{
-    background: url(drawing/drawing.svg);
+    background: url(n64\n64-minimal.png);
     background-position-x: -1249px;
 }
 .custom .a{
@@ -160,6 +160,29 @@ start and select buttons. */
 }
 .custom .y{
     left: 92px;
+}
+
+/* Sticks */
+.custom .sticks{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 151px;
+    left: 61px;
+}
+.custom .stick{
+    position: absolute;
+    background: url(n64\n64-minimal.png);
+    height:25px;
+    width: 25px;
+    background-position: -61px -40px;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
+    opacity: 0;
 }
 
 /* Dpad possitioning and sizing */
@@ -208,7 +231,7 @@ start and select buttons. */
     transform: rotate(90deg);
 }
 .custom .face.pressed{
-    background: url(drawing/drawing.svg);
+    background: url(n64\n64-minimal.png);
     background-position-x: -1323px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
