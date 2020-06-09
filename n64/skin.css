@@ -38,7 +38,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(n64\n64-minimal.png); 
+    background: url(n64-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 970px;
@@ -47,7 +47,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(n64\n64-minimal.png); 
+    background: url(n64-minimal.png); 
     background-position: 0px -424px;
     background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ placement */
 .custom .bumper{
     width: 211px;
     height: 34px;
-    background: url(n64\n64-minimal.png); 
+    background: url(n64-minimal.png); 
     background-position: -967px 0px;
     background-repeat: no-repeat;
     opacity: 0;
@@ -91,7 +91,7 @@ placement */
 .custom .trigger{/* These are the actual triggers themselves */
     width: 211px;
     height: 34px;
-    background: url(n64\n64-minimal.png); 
+    background: url(n64-minimal.png); 
     background-position: -967px 0px;
     background-repeat: no-repeat;
     opacity: 0;
@@ -120,7 +120,7 @@ start and select buttons. */
     height: 61.5px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background: url(n64\n64-minimal.png);
+    background: url(n64-minimal.png);
     background-position: -1177.5px 0px;
 }
 .custom .back{
@@ -144,7 +144,7 @@ start and select buttons. */
     height:75px;
 }
 .custom .button.pressed{
-    background: url(n64\n64-minimal.png);
+    background: url(n64-minimal.png);
     background-position-x: -1249px;
 }
 .custom .a{
@@ -172,7 +172,7 @@ start and select buttons. */
 }
 .custom .stick{
     position: absolute;
-    background: url(n64\n64-minimal.png);
+    background: url(n64-minimal.png);
     height:25px;
     width: 25px;
     background-position: -61px -40px;
@@ -231,7 +231,7 @@ start and select buttons. */
     transform: rotate(90deg);
 }
 .custom .face.pressed{
-    background: url(n64\n64-minimal.png);
+    background: url(n64-minimal.png);
     background-position-x: -1323px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
