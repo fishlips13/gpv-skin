@@ -237,7 +237,7 @@ for '.controller.custom' so when your skin is activated via player selection
 parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
 centered on screen. */
 .custom.half{
-    margin-top: -279px;
+    margin-top: -130px;
 }
 
 
