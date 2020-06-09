@@ -165,10 +165,10 @@ start and select buttons. */
 /* Sticks */
 .custom .sticks{
     position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 151px;
-    left: 61px;
+    width: 13px;
+    height: 13px;
+    top: 163px;
+    left: 73px;
 }
 .custom .stick{
     position: absolute;
