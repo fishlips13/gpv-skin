@@ -40,15 +40,13 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .controller.custom{
     background: url(n64-minimal.png); 
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    width: 970px;
-    height: 424px;
-    margin-left: -485px;
-    margin-top: -212px;
+    background-position: 0px -444px;
+    width: 588px;
+    height: 260px;
 }
 .custom.disconnected {
     background: url(n64-minimal.png); 
-    background-position: 0px -424px;
+    background-position: 0px -444px;
     background-repeat: no-repeat;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
@@ -59,8 +57,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 211px;
-    height: 34px;
+    width: 588px;
+    height: 260px;
     background: url(n64-minimal.png); 
     background-position: -967px 0px;
     background-repeat: no-repeat;
