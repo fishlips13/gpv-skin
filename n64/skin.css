@@ -165,8 +165,8 @@ start and select buttons. */
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 604px;
-    left: 244px;
+    top: 244px;
+    left: 160px;
 }
 .custom .stick{
     position: absolute;
