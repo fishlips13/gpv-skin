@@ -176,8 +176,8 @@ start and select buttons. */
     background-position: -548px -44px;
 }
 .custom .stick.left{
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
 }
 .custom .stick.right{
     opacity: 0;
