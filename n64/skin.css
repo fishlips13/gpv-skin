@@ -165,17 +165,17 @@ start and select buttons. */
 /* Sticks */
 .custom .sticks{
     position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 302px;
-    left: 122px;
+    width: 100px;
+    height: 100px;
+    top: 604px;
+    left: 244px;
 }
 .custom .stick{
     position: absolute;
     background: url(n64-minimal.png);
-    height:50px;
-    width: 50px;
-    background-position: -122px -80px;
+    height:100px;
+    width: 100px;
+    background-position: -244px -160px;
 }
 .custom .stick.left{
     top: 0;
