@@ -40,13 +40,13 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .controller.custom{
     background: url(n64-minimal.png); 
     background-repeat: no-repeat;
-    background-position: 0px -444px;
-    width: 588px;
-    height: 260px;
+    background-position: 0px 0px;
+    width: 536px;
+    height: 244px;
 }
 .custom.disconnected {
     background: url(n64-minimal.png); 
-    background-position: 0px -444px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
@@ -165,15 +165,15 @@ start and select buttons. */
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 160px;
-    left: 244px;
+    top: 128px;
+    left: 220px;
 }
 .custom .stick{
     position: absolute;
     background: url(n64-minimal.png);
-    height:100px;
-    width: 100px;
-    background-position: -244px -160px;
+    height: 76px;
+    width: 76px;
+    background-position: -548px -44px;
 }
 .custom .stick.left{
     top: 0;
@@ -237,7 +237,7 @@ for '.controller.custom' so when your skin is activated via player selection
 parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
 centered on screen. */
 .custom.half{
-    margin-top: -130px;
+    margin-top: -122px;
 }
 
 
