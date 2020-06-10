@@ -95,11 +95,7 @@ placement */
 .custom .trigger.left{ 
     float: left;
 }
-.custom .trigger.right{
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
+
 
 /* Start and Z */
 .custom .arrows{
