@@ -74,8 +74,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     float: left;
 }
 .custom .bumper.right{
-    float: right;
-    margin-bottom: 8px;
+    top: 68px;
+    left: 68px;
 }
 
 
