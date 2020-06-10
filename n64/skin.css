@@ -172,7 +172,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 100px;
     height: 100px;
     top: 128px;
-    left: 220px;
+    left: 208px;
 }
 .custom .stick{
     position: absolute;
@@ -216,14 +216,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 44px;
-    left: 0px;
+    top: 36px;
+    left: 8px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 .custom .face.right{
-    top: 44px;
-    left: 72px;
+    top: 36px;
+    left: 80px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
