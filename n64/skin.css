@@ -59,7 +59,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background-position: -532px -132px;
     background-repeat: no-repeat;
     opacity: 0;
-    display: block;
+    position: absolute;
 }
 .custom .bumper.pressed{
     opacity: 1;
