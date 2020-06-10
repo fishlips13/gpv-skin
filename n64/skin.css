@@ -59,6 +59,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background-position: -532px -132px;
     background-repeat: no-repeat;
     opacity: 0;
+    display: block;
 }
 .custom .bumper.pressed{
     opacity: 1;
@@ -71,7 +72,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     height: 128px;
 }
 .custom .bumper.left{
-    float: left;
+    top: 0px;
+    left: 0px;
 }
 .custom .bumper.right{
     top: 68px;
