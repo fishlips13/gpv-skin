@@ -83,76 +83,87 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 
 /* L and R */
 .custom .triggers{
-    width: 759px;
-    height: 34px;
+    width: 500px;
+    height: 32px;
     position: absolute;
-    left: 104px;
+    left: 8px;
+    top: 0px;
 }
 .custom .trigger{
-    width: 211px;
-    height: 34px;
+    width: 152px;
+    height: 32px;
     background: url(n64-minimal.png); 
-    background-position: -967px 0px;
+    background-position: -532px 0px;
     background-repeat: no-repeat;
     opacity: 0;
 }
-.custom .trigger.left{ 
+.custom .trigger.left{
     float: left;
 }
-
+.custom .trigger.right{
+    float: right;
+}
 
 /* Start and Z */
 .custom .arrows{
     position: absolute;
-    width: 176px;
-    height: 62px;
-    top: 214px;
-    left: 358px;
-}
-.custom .back, .custom .start{
-    width: 71.5px;
-    height: 61.5px;
-}
-.custom .back.pressed, .custom .start.pressed{
-    background: url(n64-minimal.png);
-    background-position: -1177.5px 0px;
+    width: 144px;
+    height: 196px;
+    top: 44px;
+    left: 140px;
 }
 .custom .back{
-    float: left;
+    position: absolute;
+    width: 44px;
+    height: 92px;
+    top: 104px;
+    left: 0px;
 }
 .custom .start{
-    float: right;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 0px;
+    left: 92px;
+}
+.custom .back.pressed{
+    background: url(n64-minimal.png);
+    background-position: -708px 0px;
+}
+.custom .start.pressed{
+    background: url(n64-minimal.png);
+    background-position: -672px -132px;
 }
 /* C buttons */
 .custom .abxy{
     position: absolute;
-    width: 259px;
-    height: 218px;
-    top: 105px;
-    left: 633px;
+    width: 124px;
+    height: 124px;
+    top: 44px;
+    left: 392px;
 }
 .custom .button{
     position: absolute;
-    width:75px;
-    height:75px;
+    width:44px;
+    height:44px;
 }
 .custom .button.pressed{
     background: url(n64-minimal.png);
-    background-position-x: -1249px;
+    background-position: -616px -132px;
 }
 .custom .a{
-    top: 143px;
-    left: 92px;
+    top: 80px;
+    left: 40px;
 }
 .custom .b{
-    top: 71px;
-    right: 0px;
+    top: 40px;
+    right: 80px;
 }
 .custom .x{
-    top: 71px;
+    top: 40px;
 }
 .custom .y{
-    left: 92px;
+    left: 40px;
 }
 
 /* Sticks */
@@ -182,51 +193,43 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /* Dpad */
 .custom .dpad{
     position: absolute;
-    width: 146px;
-    height: 146px;
-    top: 142px;
-    left: 133px;
+    width: 132px;
+    height: 132px;
+    top: 44px;
+    left: 0px;
 }
 .custom .face{
     position: absolute;
 }
-.custom .face.up, .custom .face.down{
-    width: 33.5px;
-    height: 34px;
-}
-.custom .face.left, .custom .face.right{
-    width: 34px;
-    height: 33.5px;
+.custom .face{
+    width: 44px;
+    height: 60px;
 }
 .custom .face.up{
     left: 56px;
-    top: 0;
-    background-position: 92px 0px;
+    top: 0px;
 }
 .custom .face.down{
     left: 56px;
-    top: 112px;
-    background-position: 131px 0;
+    top: 72px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .custom .face.left{
     top: 56px;
-    left: 0;
-    background-position: 0px 0;
+    left: 0px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 .custom .face.right{
     top: 56px;
-    right: 0px;
-    background-position: 53px 0;
+    left: 72px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 .custom .face.pressed{
     background: url(n64-minimal.png);
-    background-position-x: -1323px;
+    background-position: -644px -44px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
 for '.controller.custom' so when your skin is activated via player selection
