@@ -69,14 +69,7 @@ placement */
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
-.custom .bumper.left{
-    left: 0px;
-    top: 0px;
-}
-.custom .bumper.right{
-    left: 60px;
-    top: 60px;
-}
+
 
 
 /* L and R */
