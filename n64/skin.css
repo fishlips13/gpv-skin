@@ -54,9 +54,11 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 89px;
-    height: 28px;
-    background: url(http://i.imgur.com/UGebZzm.png);
+    width: 68px;
+    height: 68px;
+    background: url(n64-minimal.png); 
+    background-position: -532px -132px;
+    background-repeat: no-repeat;
     opacity: 0;
 }
 .custom .bumpers{
