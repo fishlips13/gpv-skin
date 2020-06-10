@@ -35,13 +35,11 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 
 */
 
-/*BEGIN PS3 Controller Styling*/
-/*This class defines the base attributes of the skin*/
 .controller.custom{
     background: url(n64-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    width: 536px;
+    width: 520px;
     height: 244px;
 }
 .custom.disconnected {
@@ -49,44 +47,43 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
-/* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
     display: none;
 }
 
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
+/* A and B */
 .custom .bumper{
-    width: 588px;
-    height: 260px;
+    width: 68px;
+    height: 68px;
     background: url(n64-minimal.png); 
-    background-position: -967px 0px;
+    background-position: -532px -132px;
     background-repeat: no-repeat;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    left: 104px;
-    top: 0px;
-    width: 759px;
-    height: 34px;
+    left: 320px;
+    top: 112px;
+    width: 128px;
+    height: 128px;
 }
 .custom .bumper.left{
-    float: left;
+    left: 0px;
+    top: 0px;
 }
 .custom .bumper.right{
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    left: 60px;
+    top: 60px;
 }
 
-.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+/* L and R */
+.custom .triggers{
     width: 759px;
     height: 34px;
     position: absolute;
     left: 104px;
 }
-.custom .trigger{/* These are the actual triggers themselves */
+.custom .trigger{
     width: 211px;
     height: 34px;
     background: url(n64-minimal.png); 
@@ -103,8 +100,7 @@ placement */
     transform: rotateY(180deg);
 }
 
-/* This is to size and position the containing div for the 
-start and select buttons. */
+/* Start and Z */
 .custom .arrows{
     position: absolute;
     width: 176px;
@@ -112,7 +108,6 @@ start and select buttons. */
     top: 214px;
     left: 358px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
     width: 71.5px;
     height: 61.5px;
@@ -127,7 +122,7 @@ start and select buttons. */
 .custom .start{
     float: right;
 }
-/* Positioning and size of the container for the face buttons */
+/* C buttons */
 .custom .abxy{
     position: absolute;
     width: 259px;
@@ -135,7 +130,6 @@ start and select buttons. */
     top: 105px;
     left: 633px;
 }
-/* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
     width:75px;
@@ -179,11 +173,12 @@ start and select buttons. */
     top: 12px;
     left: 12px;
 }
+/* Hide/ignore right stick */
 .custom .stick.right{
     opacity: 0;
 }
 
-/* Dpad possitioning and sizing */
+/* Dpad */
 .custom .dpad{
     position: absolute;
     width: 146px;
