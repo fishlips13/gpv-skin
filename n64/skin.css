@@ -157,7 +157,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 }
 .custom .b{
     top: 40px;
-    right: 80px;
+    left: 80px;
 }
 .custom .x{
     top: 40px;
@@ -179,7 +179,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(n64-minimal.png);
     height: 76px;
     width: 76px;
-    background-position: -548px -44px;
+    background-position: -532px -44px;
 }
 .custom .stick.left{
     top: 12px;
@@ -206,23 +206,23 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     height: 60px;
 }
 .custom .face.up{
-    left: 56px;
+    left: 44px;
     top: 0px;
 }
 .custom .face.down{
-    left: 56px;
+    left: 44px;
     top: 72px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 56px;
+    top: 44px;
     left: 0px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 .custom .face.right{
-    top: 56px;
+    top: 44px;
     left: 72px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
