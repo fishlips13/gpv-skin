@@ -58,6 +58,10 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(n64-minimal.png); 
     background-position: -532px -132px;
     background-repeat: no-repeat;
+    opacity: 0;
+}
+.custom .bumper.pressed{
+    opacity: 1;
 }
 .custom .bumpers{
     position: absolute;
