@@ -70,16 +70,12 @@ placement */
     opacity: 1;
 }
 .custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    float: left;
+    left: 0px;
+    top: 0px;
 }
 .custom .bumper.right{
-    float: right;
+    left: 60px;
+    top: 60px;
 }
 
 
