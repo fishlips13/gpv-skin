@@ -51,33 +51,37 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 
-/* A and B */
+/* The bumpers follow the same methodology as the triggers in terms of
+placement */
 .custom .bumper{
-    width: 68px;
-    height: 68px;
-    background: url(n64-minimal.png); 
-    background-position: -532px -132px;
-    background-repeat: no-repeat;
+    width: 89px;
+    height: 28px;
+    background: url(http://i.imgur.com/UGebZzm.png);
     opacity: 0;
-}
-.custom .bumper.pressed{
-    opacity: 1;
 }
 .custom .bumpers{
     position: absolute;
-    left: 320px;
-    top: 112px;
-    width: 128px;
-    height: 128px;
+    width: 586px;
+    height: 28px;
+    left: 99px;
+    top: 72px;
+}
+.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+    opacity: 1;
 }
 .custom .bumper.left{
-    left: 0px;
-    top: 0px;
+  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
+  and I can just rotate them in the browser? Also, note that you most likely won't need
+  to use a browser speficic prefix unless it's something that is indeed browser specific.
+  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
 }
 .custom .bumper.right{
-    left: 60px;
-    top: 60px;
+    float: right;
 }
+
 
 /* L and R */
 .custom .triggers{
