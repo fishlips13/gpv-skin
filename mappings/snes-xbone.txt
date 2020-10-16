@@ -1,0 +1,1 @@
+https://gamepadviewer.com/?p=1&css=https://fishlips13.github.io/gpv-skin/snes/skin.css&map={%22mapping%22:[{%22targetType%22:%22buttons%22,%22target%22:%226%22,%22disabled%22:false,%22choiceType%22:%22buttons%22,%22choice%22:%224%22},{%22targetType%22:%22buttons%22,%22target%22:%227%22,%22disabled%22:false,%22choiceType%22:%22buttons%22,%22choice%22:%225%22}]}
