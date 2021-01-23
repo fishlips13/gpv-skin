@@ -1,0 +1,183 @@
+.controller.custom{
+    background: url(gc-minimal.png);
+    background-repeat: no-repeat;
+    width: 336px;
+    height: 224px;
+}
+.custom.disconnected {
+    background: url(gc-minimal.png); 
+    background-repeat: no-repeat;
+}
+.custom.disconnected div {
+    display: none;
+}
+
+/* Sticks */
+.custom .sticks{
+    position: absolute;
+}
+.custom .stick{
+    position: absolute;
+    background: url(gc-minimal.png);
+}
+.custom .stick.left{
+    height: 76px;
+    width: 76px;
+    background-position: -360px 0px;
+    top: 48px;
+    left: 24px;
+}
+.custom .stick.right{
+    height: 44px;
+    width: 44px;
+    background-position: -360px -88px;
+    top: 152px;
+    left: 212px;
+}
+
+/* Dpad */
+.custom .dpad{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 140px;
+    left: 80px;
+}
+.custom .face{
+    position: absolute;
+    width: 20px;
+    height: 32px;
+}
+.custom .face.up{
+    left: 24px;
+}
+.custom .face.down{
+    left: 24px;
+    top: 36px;
+    transform: rotateX(180deg);
+}
+.custom .face.left{
+    left: 6px;
+    top: 18px;
+    transform: rotate(-90deg);
+}
+.custom .face.right{
+    right: 6px;
+    top: 18px;
+    float: right;
+    transform: rotate(90deg);
+}
+.custom .face.pressed{
+    background: url(gc-minimal.png);
+    background-position: -492px -88px;
+}
+
+/* A B X Y */
+.custom .abxy{
+    position: absolute;
+}
+.custom .button{
+    position: absolute;
+}
+.custom .a{
+    width: 60px;
+    height: 60px;
+    top: 64px;
+    left: 236px;
+}
+.custom .a.pressed{
+    background: url(gc-minimal.png);
+    background-position: -444px -132px;
+}
+.custom .x{ /* B and X swapped on on GC */
+    width: 36px;
+    height: 36px;
+    top: 92px;
+    left: 192px;
+}
+.custom .x.pressed{
+    background: url(gc-minimal.png);
+    background-position: -444px -88px;
+}
+.custom .b{ /* B and X swapped on on GC */
+    width: 48px;
+    height: 32px;
+    top: 64px;
+    left: 292px;
+    transform: rotate(90deg);
+}
+.custom .b.pressed, .custom .y.pressed{
+    background: url(gc-minimal.png);
+    background-position: -484px -48px;
+}
+.custom .y{
+    width: 48px;
+    height: 32px;
+    top: 32px;
+    left: 220px;
+}
+
+/* Z */
+.custom .bumper{
+    position: absolute;
+    width: 52px;
+    height: 16px;
+    background: url(gc-minimal.png); 
+    background-position: -444px -28px;
+    opacity: 0;
+}
+.custom .bumper.pressed{
+    opacity: 1;
+}
+.custom .bumpers{
+    position: absolute;
+    left: 280px;
+    top: 28px;
+    width: 52px;
+    height: 16px;
+}
+.custom .bumper.left{
+    opacity: 0;
+}
+
+/* Start */
+.custom .start{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 60px;
+    left: 160px;
+}
+.custom .start.pressed{
+    background: url(gc-minimal.png);
+    background-position: -444px -52px;
+}
+
+/* L and R */
+.custom .triggers{
+    position: absolute;
+    width: 264px;
+    height: 20px;
+    left: 44px;
+}
+.custom .trigger{
+    width: 92px;
+    height: 20px;
+    background: url(gc-minimal.png); 
+    background-position: -444px 0px;
+    opacity: 0;
+}
+.custom .trigger.left{
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+}
+
+/* NOTE: You NEED to set this to exactly half the height of what is listed 
+for '.controller.custom' so when your skin is activated via player selection
+parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
+centered on screen. */
+.custom.half{
+    margin-top: -122px;
+}
