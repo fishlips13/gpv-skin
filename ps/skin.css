@@ -38,18 +38,18 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(snes-minimal.png); 
+    background: url(ps-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 116px;
-    height: 50px;
+    height: 58px;
 }
 .custom.disconnected {
-    background: url(snes-minimal.png); 
+    background: url(ps-minimal.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 116px;
-    height: 50px;
+    height: 58px;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -66,7 +66,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .custom .trigger{/* These are the actual triggers themselves */
     width: 33px;
     height: 6px;
-    background: url(snes-minimal.png); 
+    background: url(ps-minimal.png); 
     background-position: -117px 0px;
 }
 .custom .trigger.left{ 
@@ -76,13 +76,36 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     float: right;
 }
 
+.custom .bumper{
+    width: 33px;
+    height: 6px;
+    background: url(ps-minimal.png); 
+    background-position: -117px 0px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    position: absolute;
+}
+.custom .bumper.pressed{
+    opacity: 1;
+}
+.custom .bumpers{
+    width: 107px;
+    height: 6px;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+}
+.custom .bumper.right{
+    left: 74px;
+}
+
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
     position: absolute;
     width: 30px;
     height: 13px;
-    top: 33px;
+    top: 41px;
     left: 42px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
@@ -91,7 +114,7 @@ start and select buttons. */
     height: 13px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background: url(snes-minimal.png);
+    background: url(ps-minimal.png);
     background-position: -118px -33px;
 }
 .custom .back{
@@ -105,7 +128,7 @@ start and select buttons. */
     position: absolute;
     width: 41px;
     height: 41px;
-    top: 7px;
+    top: 15px;
     left: 74px;
 }
 /* base class used to simplify the sprite mapping */
@@ -115,7 +138,7 @@ start and select buttons. */
     height:15px;
 }
 .custom .button.pressed{
-    background: url(snes-minimal.png);
+    background: url(ps-minimal.png);
     background-position: -135px -11px;
 }
 .custom .a{
@@ -140,7 +163,7 @@ start and select buttons. */
     position: absolute;
     width: 41px;
     height: 41px;
-    top: 7px;
+    top: 15px;
     left: 0px;
 }
 .custom .face{
@@ -171,7 +194,7 @@ start and select buttons. */
     transform: rotate(90deg);
 }
 .custom .face.pressed{
-    background: url(snes-minimal.png);
+    background: url(ps-minimal.png);
     background-position: -117px -10px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
